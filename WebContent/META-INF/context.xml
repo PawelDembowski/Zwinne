@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/LabJEE">
+	<Resource name="jdbc/h2" auth="Container"
+		type="javax.sql.DataSource" driverClassName="org.h2.Driver"
+		url="jdbc:h2:tcp://localhost/~/test" username="sa"
+		password="" maxActive="20" maxIdle="10" maxWait="10000"
+		removeAbandoned="true" removeAbandonedTimeout="60" logAbandoned="true" />
+</Context>
